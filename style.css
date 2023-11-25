@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.con {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 12px;
+
+    background-color: hsl(216, 50%, 16%);
+    padding: 0.4%;
+    width: 300px;
+}
+
+.cont {
+    text-align: left;
+    padding: 7%;
+}
+
+img[alt="eth"] {
+    width: 90%;
+    margin-top: 4.5%;
+    height: 250px;
+    border-radius: 5px;
+}
+
+img[alt="avt"] {
+    width: 12%;
+    border: 0.2px solid;
+    border-radius: 50%;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    font-size: 1.2remS;
+}
+
+.content {
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    position: relative;
+}
+
+.time {
+    color: hsl(215, 51%, 70%);
+    position: relative;
+}
+
+.abovehr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    color: white;
+    font-size: 14px;
+}
+
+.creation {
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    border: 0.5px solid hsl(215, 32%, 27%);
+}
+
+img[alt="e-logo"] {
+    position: absolute;
+    width: 15%;
+    left: 0;
+
+}
+
+.eth>span {
+    position: relative;
+    left: 25%;
+    bottom: 2%;
+    font-size: 14px;
+}
+
+img[alt="clock"] {
+    position: relative;
+    width: 20%;
+    right: 10%;
+    top: 12%;
+}
+
+.time>span {
+    position: relative;
+    bottom: 20%;
+    font-size: 14px;
+
+}
+
+.f-cont {
+    position: relative;
+    bottom: 10px;
+    left: 6px;
+}
+
+.jules:hover,
+h2:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
